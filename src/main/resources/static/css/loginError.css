@@ -1,0 +1,44 @@
+body {
+    background-color: #E0F9FF;
+}
+
+h1{
+    font-family: Anton, monospace;
+    text-align: center;
+
+}
+
+.knapContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#btn-tilbage {
+    background-color: #D7EFFC;
+    font-family: Anton, monospace;
+    color: #000000;
+    font-size: 32px;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 40px;
+    border-width: 0px 3px 3px 0px;
+    border-color: rgba(255, 0, 184, 0.8);
+}
+
+button{
+    background-color: #D7EFFC;
+    font-family: Anton, monospace;
+    color: #000000;
+    font-size: 32px;
+    padding: 40px 60px;
+    border: none;
+    border-radius: 40px;
+    border-width: 0px 3px 3px 0px;
+    border-color: rgba(255, 0, 184, 0.8);
+}
+
+
+

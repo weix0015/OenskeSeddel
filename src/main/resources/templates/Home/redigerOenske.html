@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/redigerOenske.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Rediger ønske</h1>
+
+<div class="redigerContainer">
+    <form action="/opdaterOenske" method="post">
+        <input type="text" name="id" th:value="${oenske.id}" style="display: none">
+        <input type="text" name="navn" th:value="${oenske.navn}">
+        <input type="text" name="beskrivelse" th:value="${oenske.beskrivelse}"/>
+        <input type="text" name="link" th:value="${oenske.link}"/>
+        <input type="text" name="bruger_id" th:value="${oenske.bruger_id}" style="display: none">
+
+        <input type="submit" value="Gem"/>
+    </form>
+</div>
+</body>
+</html>

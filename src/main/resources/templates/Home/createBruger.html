@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/css/createBruger.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="opretbrugerContainer">
+    <h1>Indtast oplysninger</h1>
+
+    <form action="/createNewBruger" method="post">
+        <label hidden="hidden" for="fornavn">Fornavn</label>
+        <input placeholder="Fornavn" type="text" name="fornavn" style="color: #000000" id="fornavn"/>
+        <br>
+
+        <label hidden="hidden" for="efternavn">Efternavn</label>
+        <input placeholder="Efternavn" type="text" name="efternavn" style="color: #000000" id="efternavn"/>
+        <br>
+
+        <label hidden="hidden" for="brugernavn">Brugernavn</label>
+        <input placeholder="Brugernavn" type="text" name="brugernavn" style="color: #000000" id="brugernavn"/>
+        <br>
+
+        <label hidden="hidden" for="email">E-mail</label>
+        <input placeholder="E-mail" type="text" name="bruger_email" style="color: #000000" id="email"/>
+        <br>
+
+        <button type="submit" style="color: #000000">Opret Bruger</button>
+    </form>
+</div>
+
+</body>
+</html>
